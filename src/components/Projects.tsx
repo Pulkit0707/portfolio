@@ -4,6 +4,18 @@ import { Code2, ExternalLink, Github } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
+      title: "LA Fire Help Platform",
+      description: "LA Fire Help Platform to show real time fires and shelters, provide first aid and allow people to donate.",
+      tech: ["ReactJS", "Vite", "Google Map API", "Supabase", "SQL"],
+      highlights: [
+        "Shows 20+ critical guides, provides live updates for 50+ emergency shelters, tracks over 100 transactions",
+        "Secure authentication using Supabase",
+        "99.9% uptime handling 1,000+ API requests weekly"
+      ],
+      live: "https://la-fire-help.netlify.app/",
+      code: "https://github.com/Pulkit0707/la-fire"
+    },
+    {
       title: "Pulkit Estate",
       description: "MERN Stack Real Estate App with advanced property search, viewing, and listing capabilities.",
       tech: ["NodeJS", "ReactJS", "MongoDB", "Express", "Firebase"],
